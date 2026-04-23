@@ -9,12 +9,12 @@ export default function Footer() {
           <div>
            <div className='flex justify-center'>
             <img 
-              src="logo.png" 
+              src="logo1.png" 
               alt="Knowify Logo" 
               className="h-24 sm:h-24 lg:h-40"
             />
           </div> <br />
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 text-sm leading-relaxed">
               Give them the childhood<br /> we were lucky to live.
             </p>
           </div>
