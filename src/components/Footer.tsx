@@ -14,7 +14,7 @@ export default function Footer() {
             />
           </div> <br />
             <p className="text-gray-1000 leading-relaxed">
-              Transforming students through <br />values and moral education system.
+              Give them the childhood we were lucky to live.
             </p>
           </div>
 
@@ -27,11 +27,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center gap-3 text-gray-1000 hover:text-white transition-colors">
                 <Mail size={20} />
-                <span>miyazabdurahman@gmail.com</span>
+                <span>knowify2026@gmail.com</span>
               </div>
               <div className="flex items-center justify-center gap-3 text-gray-1000  hover:text-white transition-colors">
                 <MapPin size={20} />
-                <span>KM Moulavi Quran Hadeeth Center</span>
+                <span>Breeze Garden, Kooriyad, Malappuram</span>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Follow Us</h4>
             <div className="flex justify-center gap-4">
               <a
-                href="https://www.facebook.com/wisdomtirurangadi"
+                href="https://www.facebook.com/share/1Puskfy61C/?mibextid=wwXIfr"
                 className="w-12 h-12 bg-black/10 rounded-full flex items-center justify-center hover:bg-purple-600 transition-all duration-300 hover:scale-110"
               >
                 <Facebook size={20} />
@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="border-t border-black pt-8 text-center">
           <p className="text-gray-1000">
-            © 2026 Summerise Moral School. All rights reserved.
+            © 2026 Knowfy Summer Camp. All rights reserved.
           </p>
         </div>
       </div>

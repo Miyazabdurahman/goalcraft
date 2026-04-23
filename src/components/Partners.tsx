@@ -1,8 +1,6 @@
 export default function Partners() {
   const partners = [
-    { name: 'Education First', logo: '/partners/1.jpg' },
-    { name: 'Education First', logo: '/partners/2.jpg' },
-    { name: 'Education First', logo: '/partners/3.jpg' },
+    
     { name: 'Education First', logo: '/partners/pic1.jpg' },
     { name: 'Youth Development Institute', logo: '/partners/pic2.jpg' },
     { name: 'Leadership Academy', logo: '/partners/pic3.jpg' },
@@ -20,9 +18,14 @@ export default function Partners() {
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">
             Gallery
           </h2>
-          <p className="text-lg sm:text-xl text-black max-w-3xl mx-auto">
-            Proudly fulfilled our mission of empowering students with strong moral values, leadership skills, and character development in the past couple of years.
-          </p>
+          <p className="text-l sm:text-xl text-black max-w-3xl mx-auto">
+           Step into a world where childhood was painted with laughter, muddy feet, open skies, and endless imagination. Our gallery brings alive the timeless charm of Kerala’s 90s childhood — a generation that found joy in nature, friendship, and simple games.
+
+From dusty playgrounds to green courtyards, from spinning tops to stone games, from climbing trees to chasing evenings before sunset — every image tells a story of innocence, adventure, and togetherness.
+
+These memories are more than moments; they are lessons in creativity, resilience, bonding, and happiness without screens.
+
+Explore the spirit of a beautiful era, where every game built a friendship, every fall taught courage, and every sunset ended with stories to remember.</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">

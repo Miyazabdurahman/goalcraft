@@ -21,7 +21,6 @@ function App() {
       <Pricing />
       <Countdown />
       <About />
-      <Speakers />
       <WhyAttend />
       <Partners />
       <CTA />
