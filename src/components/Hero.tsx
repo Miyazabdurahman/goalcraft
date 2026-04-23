@@ -30,9 +30,9 @@ export default function Hero() {
           {/* Title */}
           <div className='flex justify-center'>
             <img 
-              src="/logo.png" 
+              src="/logo1.png" 
               alt="Knowify Summer Camp logo" 
-              className="h-40 sm:h-44 lg:h-70"
+              className="h-40 sm:h-44 lg:h-40"
             />
           </div>
           <br />
