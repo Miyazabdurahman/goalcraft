@@ -43,11 +43,11 @@ export default function Countdown() {
         Event Starts In
       </h2>
 
-      <div className="grid grid-cols-4 gap-3 sm:gap-6">
+      <div className="grid grid-cols-4 gap-3 sm:gap-6 rounded-lg">
         {timeBlocks.map((block, index) => (
           <div
             key={index}
-            className="bg-gradient-to-br from-purple-600 to-blue-600 text-white rounded-none py-4 sm:py-6"
+            className=" bg-gradient-to-br from-green-600 to-emerald-600 text-white rounded-lg py-4 sm:py-6"
           >
             <div className="text-2xl sm:text-4xl font-bold">
               {block.value.toString().padStart(2, '0')}

@@ -12,11 +12,11 @@ export default function WhatsAppFloat() {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg transition-all duration-300 animate-pulse"
+      className="fixed bottom-5 right-5 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-700 text-white px-4 py-3 rounded-full shadow-lg transition-all duration-100 animate-none"
     >
       <MessageCircle size={22} />
       <span className="text-sm font-medium">
-        Any doubts?
+        Doubts?
       </span>
     </a>
   );

@@ -1,11 +1,19 @@
 export default function Pricing() {
   return (
+    
     <section
       id="pricing"
-      className="py-16 px-4 bg-white text-gray text-center"
-    >
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Registration Fees
+      
+      className="py-16 px-4 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 text-center">
+      
+      <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+
+      <div className=" bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
+      <div className=" bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"></div>
+      <div className=" bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
+
+      <h2 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">
+        Registration Now Open!
       </h2>
 
       <p className="text-gray-800 mb-10">
@@ -15,7 +23,7 @@ export default function Pricing() {
       <div className="flex flex-col items-center gap-6 max-w-md mx-auto">
         
         {/* 🔥 EARLY BIRD (MAIN FOCUS) */}
-        <div className="w-full bg-gradient-to-r from-purple-600 to-blue-600 p-8 rounded-l  scale-100  text-white borderRadius-  10px shadow-2xl">
+        <div className="w-full  bg-gradient-to-br from-green-600 to-emerald-600 p-8 rounded-lg  scale-100  text-white borderRadius-10px shadow-2xl">
           <p className="text-sm uppercase tracking-wide opacity-90">
             🔥 Early Bird 
           </p>
@@ -33,7 +41,7 @@ export default function Pricing() {
         </div>
 
         {/* ⚪ NORMAL (LESS FOCUS) */}
-        <div className="min-w-full bg-gray-800 p-5 rounded-l opacity-100 text-white">
+        <div className="min-w-full  bg-gradient-to-br from-green-800 to-emerald-900 p-5 rounded-lg opacity-100 text-white">
           <p className="text-sm">Normal Price</p>
           <h3 className="text-2xl font-semibold">₹699</h3>
 

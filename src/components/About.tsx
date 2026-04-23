@@ -5,7 +5,7 @@ export default function About() {
         <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-8">
           About Knowify Summer Camp
         </h2>
-        <p className="text-xl text-gray-600 leading-relaxed">
+        <p className="text-m text-gray-600 leading-relaxed">
           Welcome to Knowify Summer Camp 2026 — a unique camp designed to reconnect children with the joy of real childhood. In a world filled with screens, we create a space where kids can explore the beauty of nature, friendship, and hands-on experiences.
 
 Our camp brings back the magic of childhood through traditional games, outdoor activities, farming experiences, creative learning, storytelling, teamwork, and memory-making moments. It is a place where children laugh freely, learn naturally, and discover the off-screen world around them.

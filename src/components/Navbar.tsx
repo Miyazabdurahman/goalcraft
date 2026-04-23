@@ -65,7 +65,7 @@ export default function Navbar() {
               href="https://forms.gle/XcMaQU3aqxwMuBCt5"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-6 py-2.5  bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Register Now
             </a>
@@ -76,7 +76,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="md:hidden  border-t bg-slate-50 border-gray-200">
           <div className="px-5 py-4 space-y-4">
 
             <button onClick={() => scrollToSection('hero')} className="block w-full text-left font-medium">
@@ -95,9 +95,9 @@ export default function Navbar() {
               About
             </button>
 
-            <button onClick={() => scrollToSection('speakers')} className="block w-full text-left font-medium">
+           {/* <button onClick={() => scrollToSection('speakers')} className="block w-full text-left font-medium">
               Speakers
-            </button>
+            </button> */}
 
             <button onClick={() => scrollToSection('why')} className="block w-full text-left font-medium">
               Why Attend
@@ -114,7 +114,7 @@ export default function Navbar() {
             <a
               href="https://forms.gle/XcMaQU3aqxwMuBCt5"
               target="_blank"
-              className="block w-full text-center px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full"
+              className="block w-full text-center px-6 py-2.5  bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-full"
             >
               Register Now
             </a>

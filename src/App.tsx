@@ -18,11 +18,12 @@ function App() {
       <WhatsAppFloat />
       <Navbar />
       <Hero />
-      <Pricing />
-      <Countdown />
       <About />
-      <WhyAttend />
+      <Countdown />
+      
+      <Pricing />
       <Partners />
+      <WhyAttend />
       <CTA />
       <Footer />
     </div>

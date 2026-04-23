@@ -11,8 +11,8 @@ export default function Hero() {
     <section id="hero" className="relative pt-12 min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
 
-      <div className="absolute top-20 right-10 w-52 h-52 sm:w-72 sm:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
-      <div className="absolute top-40 left-10 w-52 h-52 sm:w-72 sm:h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"></div>
+      <div className="absolute top-20 right-10 w-52 h-52 sm:w-72 sm:h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
+      <div className="absolute top-40 left-10 w-52 h-52 sm:w-72 sm:h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"></div>
       <div className="absolute bottom-20 left-1/2 w-52 h-52 sm:w-72 sm:h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32 text-center">
@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 pt-6 sm:pt-8 text-left">
             
             <div className="flex items-center gap-3 px-4 py-3 sm:px-6 sm:py-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg">
-              <Calendar className="text-purple-600" size={22} />
+              <Calendar className="text-emerald-800" size={22} />
               <div>
                 <div className="text-xs sm:text-sm text-gray-500">Date</div>
                 <div className="font-semibold text-gray-900 text-sm sm:text-base">
@@ -56,7 +56,7 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center gap-3 px-4 py-3 sm:px-6 sm:py-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg">
-              <MapPin className="text-purple-600" size={22} />
+              <MapPin className="text-emerald-800" size={22} />
               <div>
                 <div className="text-xs sm:text-sm text-gray-500">Location</div>
                 <div className="font-semibold text-gray-900 text-sm sm:text-base">
@@ -71,7 +71,7 @@ export default function Hero() {
               rel='noopener noreferrer'
               className="flex items-center gap-3 px-4 py-3 sm:px-6 sm:py-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg"
             >
-              <Building2 className="text-purple-600" size={22} />
+              <Building2 className="text-emerald-800" size={22} />
               <div>
                 <div className="text-xs sm:text-sm text-gray-500">Venue (Click here for Location)</div>
                 <div className="font-semibold text-gray-900 text-sm sm:text-base">
@@ -89,7 +89,7 @@ export default function Hero() {
               href='https://forms.gle/XcMaQU3aqxwMuBCt5'
               target='_blank'
               rel='noopener noreferrer'
-              className='px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300'
+              className='px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300'
             >
               Register Now
             </a>
