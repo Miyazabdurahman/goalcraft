@@ -14,7 +14,7 @@ export default function Footer() {
             />
           </div> <br />
             <p className="text-gray-1000 leading-relaxed">
-              Give them the childhood we were lucky to live.
+              Give them the childhood<br /> we were lucky to live.
             </p>
           </div>
 
