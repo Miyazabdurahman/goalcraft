@@ -38,7 +38,8 @@ export default function Hero() {
           <br />
           {/* Subtitle */}
           <p className="text-base sm:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto px-2">
-            Empowering Students With Values, Purpose & Real-Life Guidance
+            Give them the childhood
+            <br />we were lucky to live
           </p>
 
           {/* Event Info */}
@@ -65,7 +66,7 @@ export default function Hero() {
             </div>
 
             <a
-              href='https://maps.app.goo.gl/gpsfFJGa8Yx5MWzf6'
+              href='https://maps.app.goo.gl/XNA7snBMaVRp2tKD9'
               target='_blank'
               rel='noopener noreferrer'
               className="flex items-center gap-3 px-4 py-3 sm:px-6 sm:py-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg"
@@ -74,7 +75,7 @@ export default function Hero() {
               <div>
                 <div className="text-xs sm:text-sm text-gray-500">Venue (Click here for Location)</div>
                 <div className="font-semibold text-gray-900 text-sm sm:text-base">
-                  KM Moulavi Quran Hadeeth Center
+                  Breeze Gardern
                 </div>
               </div>
             </a>

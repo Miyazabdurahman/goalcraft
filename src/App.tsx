@@ -10,11 +10,12 @@ import Partners from './components/Partners';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import Pricing from './components/Pricing';
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
-
+      <WhatsAppFloat />
       <Navbar />
       <Hero />
       <Pricing />
