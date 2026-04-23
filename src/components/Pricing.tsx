@@ -13,7 +13,7 @@ export default function Pricing() {
       <div className=" bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
 
       <h2 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">
-        Registration Now Open!
+        Registration Now<br />Open!
       </h2>
 
       <p className="text-gray-800 mb-10">
