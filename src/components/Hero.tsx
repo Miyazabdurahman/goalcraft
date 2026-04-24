@@ -11,12 +11,12 @@ export default function Hero() {
     <section id="hero" className="relative pt-12 min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
       <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
 
-      <div className="absolute top-20 right-10 w-52 h-52 sm:w-72 sm:h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 pointer-events-none "></div>
-      <div className="absolute top-40 left-10 w-52 h-52 sm:w-72 sm:h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"></div>
-      <div className="absolute bottom-20 left-1/2 w-52 h-52 sm:w-72 sm:h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 "></div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32 text-center">
+      <div className="absolute top-20 right-10 w-52 h-52 sm:w-72 sm:h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 pointer-events-none"></div>
+      <div className="absolute top-40 left-10 w-52 h-52 sm:w-72 sm:h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 pointer-events-none"></div>
+      <div className="absolute bottom-20 left-1/2 w-52 h-52 sm:w-72 sm:h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 pointer-events-none"></div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-32 text-center">
         <div className="space-y-2 sm:space-y-8 animate-fade-in-up">
+
 
           {/* Wisdom Students Logo 
           <div className="flex justify-center">
