@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className=" text-center">
           <p className="text-gray-700">
-            © 2026 Knowfy Summer Camp. All rights reserved.
+            © 2026 Knowify Summer Camp. All rights reserved.
           </p>
         </div>
       </div>
