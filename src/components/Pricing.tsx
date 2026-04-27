@@ -28,7 +28,7 @@ export default function Pricing() {
             REGISTER NOW
           </p>
 
-          <h3 className="text-5xl font-bold my-4">₹499</h3>
+          <h3 className="text-5xl font-bold my-4">₹699</h3>
 
           <p className="text-sm mb-4">
             Limited time offer
