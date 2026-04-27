@@ -25,7 +25,7 @@ export default function Pricing() {
         {/* 🔥 EARLY BIRD (MAIN FOCUS) */}
         <div className="w-full  bg-gradient-to-br from-green-600 to-emerald-600 p-8 rounded-lg  scale-100  text-white borderRadius-10px shadow-2xl">
           <p className="text-sm uppercase tracking-wide opacity-90">
-            REGISTER 
+            REGISTER NOW
           </p>
 
           <h3 className="text-5xl font-bold my-4">₹499</h3>
