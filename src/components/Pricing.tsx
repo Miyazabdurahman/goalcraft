@@ -17,7 +17,7 @@ export default function Pricing() {
       </h2>
 
       <p className="text-gray-800 mb-10">
-        Grab the Early Bird offer before it ends ⏳
+        Lock in your spot for an unforgettable summer experience. <br />
       </p>
 
       <div className="flex flex-col items-center gap-6 max-w-md mx-auto">
@@ -25,13 +25,13 @@ export default function Pricing() {
         {/* 🔥 EARLY BIRD (MAIN FOCUS) */}
         <div className="w-full  bg-gradient-to-br from-green-600 to-emerald-600 p-8 rounded-lg  scale-100  text-white borderRadius-10px shadow-2xl">
           <p className="text-sm uppercase tracking-wide opacity-90">
-            🔥 Early Bird 
+            REGISTER 
           </p>
 
           <h3 className="text-5xl font-bold my-4">₹499</h3>
 
           <p className="text-sm mb-4">
-            Limited time offer <br />(Only for first 25 registrations)
+            Limited time offer
           </p>
 
           <button onClick={() => window.open('https://forms.gle/XcMaQU3aqxwMuBCt5', '_blank')} 
@@ -40,17 +40,17 @@ export default function Pricing() {
           </button>
         </div>
 
-        {/* ⚪ NORMAL (LESS FOCUS) */}
+        {/* ⚪ NORMAL (LESS FOCUS) 
         <div className="min-w-full  bg-gradient-to-br from-green-800 to-emerald-900 p-5 rounded-lg opacity-100 text-white">
           <p className="text-sm">Normal Price</p>
-          <h3 className="text-2xl font-semibold">₹699</h3>
+          <h3 className="text-2xl font-semibold">₹699</h3> */}
 
            {/* <button onClick={() => window.open('https://forms.gle/XcMaQU3aqxwMuBCt5', '_blank')} 
           className="w-fit px-4 bg-white text-black font-bold py-1 rounded-lg hover:bg-gray-100 transition mx-auto block mt-3">
            Register Now
-          </button> */}
+          </button> 
 
-        </div>
+        </div> */}
 
       </div>
     </section>
