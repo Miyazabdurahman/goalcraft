@@ -1,47 +1,46 @@
-import { Leaf, Gamepad2, Lightbulb, Heart } from "lucide-react";
+import { CloudRain, Sailboat, Rainbow, Heart } from "lucide-react";
 
 export default function WhyAttend() {
   const reasons = [
     {
-      icon: Leaf,
-      title: "Soil Connection & Nature Learning",
+      icon: CloudRain,
+      title: "Feel the Magic of Rain",
       description:
-        "Reconnect with the earth through farming, gardening, mud activities, and hands-on experiences that teach respect for nature and sustainable living.",
+        "Rain has a way of slowing the world down and waking our senses. Children experience the joy of dancing in the drizzle, listening to raindrops, and discovering the beauty hidden in every rainy day — becoming part of nature, not just watching it.",
     },
     {
-      icon: Gamepad2,
-      title: "Kerala’s 90s Childhood Experience",
+      icon: Sailboat,
+      title: "Relive the Joy of Childhood",
       description:
-        "Let children discover the joy of traditional games, outdoor fun, and screen-free adventures that once shaped unforgettable childhood memories.",
+        "Paper boats, muddy footprints, puddle jumping, laughter echoing through the rain — RAIN recreates the simple pleasures many parents grew up with, giving today's children an adventurous, authentic, and wonderfully unplugged childhood.",
     },
     {
-      icon: Lightbulb,
-      title: "Creativity & Life Skills",
+      icon: Rainbow,
+      title: "Grow Through Play & Discovery",
       description:
-        "Build confidence, teamwork, communication, leadership, and problem-solving through engaging tasks, group activities, and practical challenges.",
+        "The greatest learning often happens outside the classroom. Through STEM experiments, storytelling, team games, gardening, and hands-on challenges, children build confidence, creativity, and curiosity — all while having the time of their lives.",
     },
     {
       icon: Heart,
-      title: "Mindful Growth & Happiness",
+      title: "Create Memories That Last Forever",
       description:
-        "Encourage emotional well-being, discipline, gratitude, and positive habits through meaningful sessions that nurture both heart and mind.",
+        "The camp lasts only a few days, but the friendships, laughter, and discoveries stay for years. Every raindrop becomes a story, every smile a memory — because the best childhood memories are rarely bought, they're lived.",
     },
   ];
 
   return (
-    <section id="why" className="relative overflow-hidden py-12 sm:py-16 bg-gradient-to-b from-white via-indigo-50/30 to-white">
-      <div className="absolute top-0 left-1/4 w-72 h-72 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
-      <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
-
+    <section id="why" className="relative overflow-hidden py-16 sm:py-20">
+     
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center mb-12">
-          
+      
           <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-4">
             Why Attend
           </h2>
-          <p className="text-xl text-gray-600">
-            A journey of learning, joy, and<br />personal growth
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            This monsoon, don't just let your child watch the rain from the window —
+            let them step outside and discover the joy waiting in every drop.
           </p>
         </div>
 

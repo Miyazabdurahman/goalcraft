@@ -25,8 +25,7 @@ It's measured by moments that stay forever.`;
 
   return (
     <section id="about" className="relative overflow-hidden py-10 sm:py-14">
-      <div className="absolute top-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
-
+      
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-semibold mb-4">
           OUR STORY

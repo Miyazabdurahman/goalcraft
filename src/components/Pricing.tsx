@@ -54,9 +54,7 @@ export default function Pricing() {
           Choose Your <span className="text-indigo-600">Monsoon</span> Experience
         </h2>
 
-        <p className="text-gray-600 mb-12 sm:mb-16 max-w-xl mx-auto text-base sm:text-lg">
-          Lock in your spot for an unforgettable rain camp — pick the adventure that suits your child best.
-        </p>
+        
 
         <div className="w-full max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto items-start">
@@ -137,9 +135,7 @@ export default function Pricing() {
                 PREMIUM
               </div>
 
-              <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
-              <div className="absolute -bottom-16 -left-10 w-48 h-48 bg-white/10 rounded-full blur-3xl pointer-events-none"></div>
-
+             
               <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold">
                 1 NIGHT • 2 DAYS
               </span>

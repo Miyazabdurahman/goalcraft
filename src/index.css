@@ -6,10 +6,7 @@
   .animate-fade-in-up {
     animation: fadeInUp 1s ease-out;
   }
-
-  .animate-blob {
-    animation: blob 7s infinite;
-  }
+  
 
   .animation-delay-2000 {
     animation-delay: 2s;
@@ -66,6 +63,4 @@ body {
   );
   /* Fixed so the gradient never scrolls, tiles, or seams between sections —
      every section should be bg-transparent and let this show through. */
-  background-attachment: fixed;
-  background-size: cover;
 }

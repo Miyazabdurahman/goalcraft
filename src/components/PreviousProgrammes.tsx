@@ -10,8 +10,7 @@ import { previousProgrammes } from '../data/programmes';
 export default function PreviousProgrammes() {
   return (
     <section id="previous-programmes" className="relative overflow-hidden py-16 sm:py-20 bg-gradient-to-b from-white via-blue-50/40 to-white">
-      <div className="absolute -top-16 right-1/4 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
-
+      
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-semibold mb-4">
