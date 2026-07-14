@@ -96,7 +96,7 @@ export default function Navbar() {
             </button>
           </div>
 
-           Nav links (desktop, right side) + Register
+          {/* Nav links (desktop, right side) + Register */}
           <div className="hidden md:flex items-center gap-1 ml-auto">
             
 <button
