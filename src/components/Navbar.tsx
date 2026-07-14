@@ -6,10 +6,8 @@ const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'countdown', label: 'Countdown' },
   { id: 'about', label: 'About' },
-  { id: 'mazha', label: 'Mazha' },
   { id: 'previous-programmes', label: 'Previous Programmes' },
   { id: 'why', label: 'Why Attend' },
-  { id: 'partners', label: 'Gallery' },
   { id: 'footer', label: 'Contact' },
 ];
 
@@ -98,7 +96,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Nav links (desktop, right side) + Register */}
+          {/* Nav links (desktop, right side) + Register
           <div className="hidden md:flex items-center gap-1 ml-auto">
             
 
@@ -108,9 +106,9 @@ export default function Navbar() {
             >
               Register Now
             </a>
-          </div>
+          </div>  */}
 
-          {/* Register button (mobile, compact) */}
+          {/* Register button (mobile, compact)
           <div className="md:hidden ml-auto">
             <a
               href="#pricing"
@@ -118,7 +116,7 @@ export default function Navbar() {
             >
               Register
             </a>
-          </div>
+          </div>  */}
 
         </div>
       </div>
