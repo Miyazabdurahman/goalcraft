@@ -119,7 +119,7 @@ export default function Pricing() {
               </div>
 
               <a
-                href={registerLink}
+                href='https://forms.gle/Rhp51m6dWFCsQi2F9'
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 block w-full py-4 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
@@ -194,7 +194,7 @@ export default function Pricing() {
               </div>
 
               <a
-                href={registerLink}
+                href='https://forms.gle/Rhp51m6dWFCsQi2F9'
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 block w-full py-4 rounded-xl bg-white text-blue-700 font-bold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
