@@ -139,7 +139,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="#pricing"
+            href="#priing"
             className="block w-full text-center mt-3 px-6 py-3 bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300"
           >
             Register Now
