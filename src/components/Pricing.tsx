@@ -23,34 +23,85 @@ export default function Pricing() {
       <div className="flex flex-col items-center gap-6 max-w-md mx-auto">
         
         {/* 🔥 EARLY BIRD (MAIN FOCUS) */}
-        <div className="w-full bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-700 p-8 md:p-10 rounded-3xl shadow-2xl text-white relative overflow-hidden">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-6 lg:gap-8 max-w-6xl mx-auto">
 
-  {/* Decorative glow */}
-  <div className="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+  {/* Rain Explorer */}
+  <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-10 border border-blue-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
 
-  <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold tracking-wide uppercase">
-    Early Bird Offer
-  </span>
+    <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
+      ONE DAY CAMP
+    </span>
 
-  <h3 className="text-5xl md:text-6xl font-extrabold mt-5">
-    ₹499
-  </h3>
+    <h3 className="text-3xl lg:text-4xl font-bold mt-4 text-slate-800">
+      Rain Explorer
+    </h3>
 
-  <p className="mt-2 text-blue-100">
-    Limited seats only! Only for first 50 registrations.
-  </p>
+    <p className="text-slate-600 mt-3">
+      A fun-filled monsoon adventure where children explore nature, creativity, teamwork, and the joy of rain.
+    </p>
 
-  <div className="mt-6 flex items-center justify-center gap-2 text-sm text-blue-100 text-center">
-  Secure your spot now!
+    <div className="text-5xl lg:text-6xl font-extrabold text-blue-600 mt-6">
+      ₹799
+    </div>
+
+    <div className="mt-4 space-y-2 text-sm text-slate-500">
+      <p>🌧️ Rain Games</p>
+      <p>🎨 Creative Workshops</p>
+      <p>🌱 Nature Exploration</p>
+      <p>🤝 Group Activities</p>
+      <p>🎟️ Only 50 Seats Available</p>
+    </div>
+
+    <button
+      className="mt-8 lg:mt-10 w-full py-4 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+    >
+      Register Now →
+    </button>
+
+  </div>
+
+  {/* Rain Escape */}
+  <div className="bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-700 rounded-3xl shadow-2xl p-8 lg:p-10 text-white relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+
+    <div className="hidden md:block absolute -top-4 -right-4 bg-yellow-400 text-slate-900 px-4 py-2 rounded-full text-xs font-bold shadow-lg rotate-12">
+      PREMIUM
+    </div>
+
+    <div className="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
+
+    <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold">
+      1 NIGHT • 2 DAYS
+    </span>
+
+    <h3 className="text-3xl lg:text-4xl font-bold mt-4">
+      Rain Escape
+    </h3>
+
+    <p className="text-blue-100 mt-3">
+      An unforgettable residential monsoon experience packed with adventure, friendship, and nature.
+    </p>
+
+    <div className="text-5xl lg:text-6xl font-extrabold mt-6">
+      ₹3,700
+    </div>
+
+    <div className="mt-4 space-y-2 text-sm text-blue-100">
+      <p>🎣 Fishing</p>
+      <p>🛶 Boating</p>
+      <p>🪵 Pottery & Clay Making</p>
+      <p>🔥 Campfire*</p>
+      <p>🎟️ Limited to 35 Participants</p>
+    </div>
+
+    <button
+      className="mt-8 lg:mt-10 w-full py-4 rounded-xl bg-white text-blue-700 font-bold hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+    >
+      Register Now →
+    </button>
+
+  </div>
+
 </div>
-
-  <button
-    className="mt-8 px-10 py-4 bg-white text-blue-700 font-bold rounded-xl shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
-  >
-    Register Now →
-  </button>
-</div>
-
           
        {/* <div className="min-w-full  bg-gradient-to-br from-green-800 to-emerald-900 p-5 rounded-lg opacity-100 text-white">
           <p className="text-sm">Normal Price</p>

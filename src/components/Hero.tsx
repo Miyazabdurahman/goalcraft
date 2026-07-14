@@ -8,7 +8,7 @@ export default function Hero() {
     }
   };
   return (
-    <section id="hero" className="relative pt-0 min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
+    <section id="hero" className="relative pt-0 min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-sky-50 via-blue-50 to-indigo-100">
       <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
 
       <div className="hidden sm:block absolute top-20 right-10 w-72 h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 pointer-events-none"></div>
@@ -43,6 +43,9 @@ export default function Hero() {
             Give them the childhood
             <br />
           </p>  */}
+          <p className="text-lg sm:text-2xl lg:text-3xl font-medium text-gray-700 max-w-4xl mx-auto px-2">
+   Play in the Rain • Learn from Nature <br/>• Create Memories Forever
+</p>
 
           {/* Event Info */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 pt-6 sm:pt-8 text-left">
