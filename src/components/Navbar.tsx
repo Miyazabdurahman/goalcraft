@@ -96,17 +96,16 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Nav links (desktop, right side) + Register
+           Nav links (desktop, right side) + Register
           <div className="hidden md:flex items-center gap-1 ml-auto">
             
-
-            <a
-              href="#pricing"
-              className="ml-2 px-6 py-2.5 bg-gradient-to-br from-sky-500 via-blue-500 to-indigo-600 text-white rounded-full font-medium text-sm hover:shadow-lg hover:scale-105 transition-all duration-300"
-            >
-              Register Now
-            </a>
-          </div>  */}
+<button
+  onClick={() => scrollToSection('pricing')}
+  className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+>
+  Register Now
+</button>
+          </div> 
 
           {/* Register button (mobile, compact)
           <div className="md:hidden ml-auto">
@@ -138,12 +137,12 @@ export default function Navbar() {
             </button>
           ))}
 
-          <a
-            href="#priing"
-            className="block w-full text-center mt-3 px-6 py-3 bg-gradient-to-br from-sky-500 via-blue-600 to-indigo-700 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300"
-          >
-            Register Now
-          </a>
+          <button
+  onClick={() => scrollToSection('pricing')}
+  className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+>
+  Register Now
+</button>
         </div>
       </div>
 
