@@ -100,7 +100,7 @@ export default function Hero() {
               <div className="px-6 py-5 space-y-3 flex-1">
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                 <Calendar className="text-indigo-600 shrink-0" size={18} />
-                 <span>August 23, 24</span>
+                 <span>2026 August 23, 24</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                   <Tent className="text-indigo-600 shrink-0" size={18} />
