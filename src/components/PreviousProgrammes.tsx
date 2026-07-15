@@ -13,9 +13,7 @@ export default function PreviousProgrammes() {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-semibold mb-4">
-            THROWBACK
-          </span>
+       
           <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-4">
             Previous Programmes
           </h2>

@@ -27,9 +27,7 @@ It's measured by moments that stay forever.`;
     <section id="about" className="relative overflow-hidden py-10 sm:py-14">
       
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-semibold mb-4">
-          OUR STORY
-        </span>
+      
 
         <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-8">
           About Knowify

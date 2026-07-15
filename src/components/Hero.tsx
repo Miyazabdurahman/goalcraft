@@ -1,4 +1,4 @@
-import { MapPin, Clock, Users, Sparkles, Tent, TreePine } from 'lucide-react';
+import { MapPin, Clock, Users, Sparkles, Tent, TreePine, Calendar } from 'lucide-react';
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -55,9 +55,14 @@ export default function Hero() {
 
               <div className="px-6 py-5 space-y-3 flex-1">
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
+                <Calendar className="text-sky-600 shrink-0" size={18} />
+                 <span>09 August 2026 (Sunday)</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                   <Users className="text-sky-600 shrink-0" size={18} />
                   <span>Grades 1–4 (Boys & Girls)</span>
                 </div>
+                
                 <div className="flex items-start gap-3 text-gray-700 text-sm sm:text-base">
                   <MapPin className="text-sky-600 shrink-0 mt-0.5" size={18} />
                   <span>Noor Lake, Tirur <span className="text-gray-400">or</span> Royad Farm House, Omassery</span>
@@ -93,6 +98,10 @@ export default function Hero() {
               </div>
 
               <div className="px-6 py-5 space-y-3 flex-1">
+                <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
+                <Calendar className="text-indigo-600 shrink-0" size={18} />
+                 <span>August 23, 24</span>
+                </div>
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                   <Tent className="text-indigo-600 shrink-0" size={18} />
                   <span>1 Night • 2 Days</span>

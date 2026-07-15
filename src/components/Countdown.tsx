@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Sparkles } from 'lucide-react';
 
 export default function Countdown() {
-  const targetDate = new Date('2026-08-03T09:00:00').getTime();
+  const targetDate = new Date('2026-08-09T09:00:00').getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -51,10 +51,7 @@ export default function Countdown() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
 
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/70 backdrop-blur-sm border border-indigo-200 text-indigo-700 text-xs sm:text-sm font-semibold mb-5">
-          
-          Mark Your Calendar
-        </div>
+       
 
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-10 tracking-tight">
           {hasStarted ? "The Adventure Has Begun!" : "Event Starts In"}
