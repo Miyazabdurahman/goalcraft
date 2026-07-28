@@ -45,54 +45,77 @@ export default function Hero() {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6 pt-2 text-left max-w-5xl mx-auto">
 
-            {/* Camp 01 */}
-            <div className="flex flex-col bg-white/85 backdrop-blur-sm rounded-3xl shadow-lg border border-sky-100 overflow-hidden">
-              <div className="px-6 py-4 bg-gradient-to-r from-sky-400 to-blue-500 text-white">
-                <div className="text-xs font-semibold tracking-wide uppercase opacity-90">Camp 01</div>
-                <div className="text-xl sm:text-2xl font-bold">Rain Explorer</div>
-                <div className="text-sm opacity-90">One-Day Monsoon Adventure</div>
-              </div>
+           {/* Camp 01 */}
+<div className="relative order-2 flex flex-col bg-white/85 backdrop-blur-sm rounded-3xl shadow-lg border border-sky-100 overflow-hidden">
 
-              <div className="px-6 py-5 space-y-3 flex-1">
-                <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
-                <Calendar className="text-sky-600 shrink-0" size={18} />
-                 <span>09 August 2026 (Sunday)</span>
-                </div>
-                <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
-                  <Users className="text-sky-600 shrink-0" size={18} />
-                  <span>Grades 1–4 (Boys & Girls)</span>
-                </div>
-                
-                <div className="flex items-start gap-3 text-gray-700 text-sm sm:text-base">
-                  <MapPin className="text-sky-600 shrink-0 mt-0.5" size={18} />
-                  <span>Noor Lake, Tirur <span className="text-gray-400">or</span> Royad Farm House, Omassery</span>
-                </div>
-                <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
-                  <Clock className="text-sky-600 shrink-0" size={18} />
-                  <span>9:30 AM – 4:30 PM</span>
-                </div>
+{/* BIG COMING SOON OVERLAY */}
+<div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
+  <div className="absolute inset-0 bg-white/55 backdrop-blur-[2px]" />
 
-               {/* <div className="pt-2 flex flex-wrap gap-2">
-                  {['Rain Games', 'Pottery & Clay Making', 'Group Activities', 'Nature Exploration', 'Creative Workshops', 'Team Challenges'].map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-sky-50 text-sky-700 border border-sky-100"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div> */}
-              </div> 
+  <div className="relative -rotate-12 w-[92%] sm:w-auto flex justify-center">
+    <div className="w-full sm:w-auto px-4 sm:px-10 py-3 sm:py-5 rounded-2xl bg-[#8B1E1E] shadow-2xl border-4 border-white">
+      <h2 className="text-center whitespace-nowrap text-xl sm:text-4xl font-black uppercase tracking-wide sm:tracking-[0.2em] text-white">
+        COMING SOON
+      </h2>
+    </div>
+  </div>
+</div>
 
-              <div className="px-6 py-3 border-t border-sky-100 bg-sky-50/50 text-xs sm:text-sm font-medium text-sky-700">
-                Only 50 seats available
-              </div>
-            </div>
+  {/* Header */}
+  <div className="px-6 py-4 bg-gradient-to-r from-sky-400 to-blue-500 text-white">
+    <div className="text-xs font-semibold tracking-wide uppercase opacity-90">
+      Camp 02
+    </div>
+
+    <div className="text-xl sm:text-2xl font-bold">
+      Rain Explorer
+    </div>
+
+    <div className="text-sm opacity-90">
+      One-Day Monsoon Adventure
+    </div>
+  </div>
+
+  {/* Body */}
+  <div className="px-6 py-5 space-y-3 flex-1">
+
+    <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
+      <Calendar className="text-sky-600 shrink-0" size={18} />
+      <span>09 August 2026 (Sunday)</span>
+    </div>
+
+    <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
+      <Users className="text-sky-600 shrink-0" size={18} />
+      <span>Grades 1–4 (Boys & Girls)</span>
+    </div>
+
+    <div className="flex items-start gap-3 text-gray-700 text-sm sm:text-base">
+      <MapPin className="text-sky-600 shrink-0 mt-0.5" size={18} />
+      <span>
+        Noor Lake, Tirur <span className="text-gray-400">or</span> Royad Farm House,
+        Omassery
+      </span>
+    </div>
+
+    <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
+      <Clock className="text-sky-600 shrink-0" size={18} />
+      <span>9:30 AM – 4:30 PM</span>
+    </div>
+
+  </div>
+
+  {/* Footer */}
+  <div className="px-6 py-3 border-t border-sky-100 bg-sky-50/50 text-xs sm:text-sm font-medium text-sky-700">
+    Only <span className="font-bold">50 seats</span> available
+  </div>
+
+</div>
+
 
             {/* Camp 02 */}
             <div className="flex flex-col bg-white/85 backdrop-blur-sm rounded-3xl shadow-lg border border-indigo-100 overflow-hidden">
               <div className="px-6 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
-                <div className="text-xs font-semibold tracking-wide uppercase opacity-90">Camp 02 • Premium</div>
+                <div className="text-xs font-semibold tracking-wide uppercase opacity-90">Camp 01 • Premium</div>
                 <div className="text-xl sm:text-2xl font-bold">Rain Escape</div>
                 <div className="text-sm opacity-90">Residential Monsoon Camp</div>
               </div>
@@ -131,9 +154,11 @@ export default function Hero() {
               <div className="px-6 py-3 border-t border-indigo-100 bg-indigo-50/50 text-xs sm:text-sm font-medium text-indigo-700">
                 Limited to 35 participants
               </div>
+              
             </div>
 
           </div>
+          
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-8 sm:pt-10">
@@ -141,6 +166,7 @@ export default function Hero() {
   onClick={() => scrollToSection('pricing')}
   className="px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
 >
+  
   Register Now
 </button>
 
@@ -151,9 +177,12 @@ export default function Hero() {
               Previous Programmes
             </button>
           </div>
+          
 
         </div>
+        
       </div>
+      
     </section>
   );
 }
