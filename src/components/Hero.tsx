@@ -1,4 +1,5 @@
-import { MapPin, Clock, Users, Sparkles, Tent, TreePine, Calendar } from 'lucide-react';
+import { useState } from "react";
+import { MapPin, Clock, Users, Sparkles, Tent, TreePine, Calendar, ChevronDown, Check } from 'lucide-react';
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -7,6 +8,28 @@ export default function Hero() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const [openCamp, setOpenCamp] = useState<'explorer' | 'escape' | null>(null);
+  const explorerFeatures = [
+  'Rain Games',
+  'Pottery & Clay Making',
+  'Group Activities',
+  'Nature Exploration',
+  'Creative Workshops',
+  'Team Challenges',
+  'Fun & Surprises',
+];
+
+const escapeFeatures = [
+  'Rain Adventure Games',
+  'Fishing',
+  'Boating',
+  'Pottery & Clay Making',
+  'Traditional Mud Bath',
+  'Nature Trails',
+  'Team Building Activities',
+  'Campfire*',
+];
+
 
   const registerLink =
     'https://docs.google.com/forms/d/e/1FAIpQLScbH7G_lcFmmPRVUI4lPYEX4UExkSX788heTPX6LAdFV5an0A/viewform';
@@ -123,32 +146,76 @@ export default function Hero() {
               <div className="px-6 py-5 space-y-3 flex-1">
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                 <Calendar className="text-indigo-600 shrink-0" size={18} />
-                 <span>2026 August 23, 24</span>
+                 <span>2026 August 22, 23</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                   <Tent className="text-indigo-600 shrink-0" size={18} />
                   <span>1 Night • 2 Days</span>
                 </div>
                 <div className="flex items-start gap-3 text-gray-700 text-sm sm:text-base">
-                  <MapPin className="text-indigo-600 shrink-0 mt-0.5" size={18} />
-                  <span>Royad Farm House, Omassery <span className="text-gray-400">or</span> Era Nature, Perinthalmanna</span>
-                </div>
+<div className="flex items-start gap-3 text-gray-700 text-sm sm:text-base">
+  <MapPin className="text-indigo-600 shrink-0 mt-0.5" size={18} />
+
+  <div className="leading-tight">
+    <p>Era Nature, Perinthalmanna</p>
+
+    <a
+      href="https://maps.app.goo.gl/3yHHrGB7mGjTzQia6"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-xs text-indigo-600 hover:text-indigo-800 hover:underline transition-colors"
+    >
+      View on Google Maps →
+    </a>
+  </div>
+</div>
+</div>
                 <div className="flex items-center gap-3 text-gray-700 text-sm sm:text-base">
                   <TreePine className="text-indigo-600 shrink-0" size={18} />
                   <span>Nature trails, campfire & more</span>
                 </div>
+                 <button
+                onClick={() => setOpenCamp(openCamp === 'escape' ? null : 'escape')}
+className="mt-6 inline-flex items-center gap-1.5 font-semibold text-indigo-600 hover:text-indigo-800 transition"              >
+                {openCamp === 'escape' ? 'Hide Details' : 'View Details'}
+                <ChevronDown
+                  size={16}
+                  className={`transition-transform duration-300 ${openCamp === 'escape' ? 'rotate-180' : ''}`}
+                />
+              </button>
+                
 
-                {/*<div className="pt-2 flex flex-wrap gap-2">
-                  {['Rain Adventure Games', 'Fishing', 'Boating', 'Pottery & Clay Making', 'Traditional Mud Bath', 'Nature Trails', 'Team Building', 'Campfire*'].map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div> 
-                <div className="text-xs text-gray-400">*Campfire subject to weather</div> */}
+              <div
+  className={`grid transition-all duration-300 ease-out ${
+    openCamp === 'escape'
+      ? 'grid-rows-[1fr] opacity-100 mt-6'
+      : 'grid-rows-[0fr] opacity-0'
+  }`}
+>
+  <div className="overflow-hidden">
+    <ul className="space-y-2 mb-4">
+      {escapeFeatures.map((feature) => (
+        <li
+          key={feature}
+          className="flex items-center gap-2 text-gray-700 text-sm"
+        >
+          <Check
+            size={16}
+            className="text-indigo-600 shrink-0"
+          />
+          {feature}
+        </li>
+      ))}
+    </ul>
+
+    <p className="italic text-gray-500 text-sm">
+      "Not just a camp… a monsoon childhood brought back to life."
+    
+
+  
+    </p>
+  </div>
+</div>
               </div>
 
               <div className="px-6 py-3 border-t border-indigo-100 bg-indigo-50/50 text-xs sm:text-sm font-medium text-indigo-700">
