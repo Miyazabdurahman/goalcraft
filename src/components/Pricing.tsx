@@ -200,7 +200,7 @@ export default function Pricing() {
            rel='noopener noreferrer'
              className="mt-8 block w-full py-4 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
              >
-            Register Now
+            Register Now →
            </a>
             </div>
 
