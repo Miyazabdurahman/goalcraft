@@ -83,7 +83,7 @@ export default function Pricing() {
               </p>
 
               <div className="flex items-baseline gap-2 mt-6">
-                <span className="text-5xl font-extrabold">₹3,700</span>
+                <span className="text-5xl font-extrabold">₹3,100</span>
                 <span className="text-sm text-blue-200">/ child</span>
               </div>
 
