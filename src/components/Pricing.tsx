@@ -59,74 +59,7 @@ export default function Pricing() {
         <div className="w-full max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto items-start">
 
-            {/* Rain Explorer */}
-            <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 border border-blue-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-left">
-
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
-                <Clock size={12} />
-                ONE DAY CAMP
-              </span>
-
-              <h3 className="text-3xl lg:text-5xl font-bold mt-4 text-slate-800">
-                Rain Explorer
-              </h3>
-
-              <p className="text-slate-600 mt-4 leading-relaxed">
-                A fun-filled monsoon adventure where children explore nature,
-                creativity, teamwork, and the joy of rain.
-              </p>
-
-              <div className="flex items-baseline gap-2 mt-6">
-                <span className="text-5xl font-extrabold text-blue-600">₹799</span>
-                <span className="text-sm text-slate-400">/ child</span>
-              </div>
-
-              <div className="mt-4 flex items-center gap-2 text-sm text-slate-500">
-                <Users size={16} className="text-blue-500" />
-                <span className="font-semibold">Only 50 Seats Available</span>
-              </div>
-
-              <button
-                onClick={() => setOpenCamp(openCamp === 'explorer' ? null : 'explorer')}
-                className="mt-6 inline-flex items-center gap-1.5 text-blue-600 font-semibold hover:text-blue-800 transition"
-              >
-                {openCamp === 'explorer' ? 'Hide Details' : 'View Details'}
-                <ChevronDown
-                  size={16}
-                  className={`transition-transform duration-300 ${openCamp === 'explorer' ? 'rotate-180' : ''}`}
-                />
-              </button>
-
-              <div
-                className={`grid transition-all duration-300 ease-out ${
-                  openCamp === 'explorer' ? 'grid-rows-[1fr] opacity-100 mt-6' : 'grid-rows-[0fr] opacity-0'
-                }`}
-              >
-                <div className="overflow-hidden">
-                  <p className="text-slate-700 font-semibold mb-3">Grades 1–4 (Boys & Girls)</p>
-                  <ul className="space-y-2 mb-4">
-                    {explorerFeatures.map((f) => (
-                      <li key={f} className="flex items-center gap-2 text-slate-600 text-sm">
-                        <Check size={16} className="text-blue-500 shrink-0" />
-                        {f}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="italic text-slate-500 text-sm">
-                    "A day your child will remember every time it rains."
-                  </p>
-                </div>
-              </div>
-
-              <a
-                href='https://forms.gle/Rhp51m6dWFCsQi2F9'
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 block w-full py-4 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-              >
-                Register Now →
-              </a>
-            </div>
+            
 
             {/* Rain Escape */}
             <div className="bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-700 rounded-3xl shadow-2xl p-8 lg:p-12 text-white relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-left">
@@ -200,6 +133,72 @@ export default function Pricing() {
                 className="mt-8 block w-full py-4 rounded-xl bg-white text-blue-700 font-bold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
               >
                 Register Now →
+              </a>
+            </div>
+            {/* Rain Explorer */}
+            <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 border border-blue-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-left">
+
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
+                <Clock size={12} />
+                ONE DAY CAMP
+              </span>
+
+              <h3 className="text-3xl lg:text-5xl font-bold mt-4 text-slate-800">
+                Rain Explorer
+              </h3>
+
+              <p className="text-slate-600 mt-4 leading-relaxed">
+                A fun-filled monsoon adventure where children explore nature,
+                creativity, teamwork, and the joy of rain.
+              </p>
+
+              <div className="flex items-baseline gap-2 mt-6">
+                <span className="text-5xl font-extrabold text-blue-600">₹799</span>
+                <span className="text-sm text-slate-400">/ child</span>
+              </div>
+
+              <div className="mt-4 flex items-center gap-2 text-sm text-slate-500">
+                <Users size={16} className="text-blue-500" />
+                <span className="font-semibold">Only 50 Seats Available</span>
+              </div>
+
+              <button
+                onClick={() => setOpenCamp(openCamp === 'explorer' ? null : 'explorer')}
+                className="mt-6 inline-flex items-center gap-1.5 text-blue-600 font-semibold hover:text-blue-800 transition"
+              >
+                {openCamp === 'explorer' ? 'Hide Details' : 'View Details'}
+                <ChevronDown
+                  size={16}
+                  className={`transition-transform duration-300 ${openCamp === 'explorer' ? 'rotate-180' : ''}`}
+                />
+              </button>
+
+              <div
+                className={`grid transition-all duration-300 ease-out ${
+                  openCamp === 'explorer' ? 'grid-rows-[1fr] opacity-100 mt-6' : 'grid-rows-[0fr] opacity-0'
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <p className="text-slate-700 font-semibold mb-3">Grades 1–4 (Boys & Girls)</p>
+                  <ul className="space-y-2 mb-4">
+                    {explorerFeatures.map((f) => (
+                      <li key={f} className="flex items-center gap-2 text-slate-600 text-sm">
+                        <Check size={16} className="text-blue-500 shrink-0" />
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="italic text-slate-500 text-sm">
+                    "A day your child will remember every time it rains."
+                  </p>
+                </div>
+              </div>
+
+              <a
+           
+                className="mt-8 block w-full py-4 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold text-center hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+              >
+                Coming soon...
               </a>
             </div>
 
