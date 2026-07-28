@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Sparkles } from 'lucide-react';
 
 export default function Countdown() {
-  const targetDate = new Date('2026-08-23T09:00:00').getTime();
+  const targetDate = new Date('2026-08-22T09:00:00').getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
