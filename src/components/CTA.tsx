@@ -13,7 +13,7 @@ export default function CTA() {
         </p>
         
         <a
-           href=''https://forms.gle/Rhp51m6dWFCsQi2F9'
+           href='https://forms.gle/Rhp51m6dWFCsQi2F9'
            target='_blank'
            rel='noopener noreferrer'
            className='px-11 py-3 sm:px-8 sm:py-4  bg-gradient-to-br from-blue-500 to-indigo-600 text-white rounded-full font-semibold text-base sm:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300'
